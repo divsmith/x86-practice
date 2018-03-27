@@ -17,6 +17,6 @@
 _start:
 movl $1, %eax
 
-movl $0, %ebx
+movl $17, %ebx
 
 int $0x80
