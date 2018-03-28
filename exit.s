@@ -15,8 +15,8 @@
 .section .text
 .globl _start
 _start:
-movl $1, %eax
+	movl $1, %eax
 
-movl $17, %ebx
+	movl $17, %ebx
 
-int $0x80
+	int $0x80
