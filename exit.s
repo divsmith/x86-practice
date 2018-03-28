@@ -1,5 +1,5 @@
-#PURPOSE:  Simple program that exits and returns 
-#	   a status code back to the Linux kernel
+#PURPOSE:   Simple program that exits and returns
+#	        a status code back to the Linux kernel
 
 #INPUT:    none
 #
@@ -7,8 +7,8 @@
 #OUTPUT:   returns a status code.
 
 #VARIABLES:
-#	   %eax holds the system call number
-#	   %ebx holds the return status
+#	       %eax holds the system call number
+#	       %ebx holds the return status
 
 .section .data
 
